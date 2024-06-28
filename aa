@@ -1,0 +1,36 @@
+// const PostData = async (e) => {
+
+//         console.log("hy");
+//         e.preventDefault();
+
+//         const { name, email, phone, profession, password, cpassword } = user;
+
+//         const res = await fetch("register", {
+//             method: "POST",
+//             headers: {
+//                 "Content-Type": "application/json"
+//             },
+//             body: JSON.stringify({
+
+//                 name: name,
+//                 email: email,
+//                 phone: phone,
+//                 work: profession,
+//                 password:password,
+//                 cpassword: cpassword
+//             })
+//         });
+
+//         const data = await res.json();
+
+//         if(data.status === 422 || !data){
+//             window.alert("Invalid Registration.");
+//             console.log("Failed to Register.");
+//         }
+//         else {
+//             window.alert("Registration Successul.");
+//             console.log("Register Done.");
+//             navigate("/login");
+//         }
+
+//     }
